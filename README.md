@@ -1,39 +1,45 @@
-# Healthcare Patient Analytics
+# Healthcare Patient Analytics Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![pandas](https://img.shields.io/badge/pandas-2.0-green)
-![seaborn](https://img.shields.io/badge/seaborn-visualization-orange)
+![SQL](https://img.shields.io/badge/SQL-SQLite-orange)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
 
 ## About this project
-Analyzed 318,000+ real hospital patient records to identify
-department workload patterns, severity distributions, and
-patient stay duration trends to support hospital management
-decisions.
-
-## Business questions answered
-- Which departments have the highest patient volume?
-- How does severity of illness affect length of stay?
-- Where should hospitals prioritize staffing and resources?
-
-## Key findings
-- Top 3 departments handle majority of all admissions
-- Moderate severity patients form the largest patient group
-- Most patients stay between 11-40 days
-
-## Recommendations
-- Increase staffing in top 3 high volume departments
-- Build fast track triage for extreme severity cases
-- Implement targeted discharge planning for 90+ day patients
+Full end-to-end data analytics project analyzing 318,438 
+real hospital patient records to identify department 
+workload, severity patterns, and admission trends.
 
 ## Tools used
-- Python 3 · pandas · seaborn · matplotlib
-- Jupyter Notebook
-- Dataset: 318,438 rows × 18 columns
+- Python · pandas · seaborn · matplotlib
+- SQL · SQLite
+- Power BI — interactive dashboard
+
+## Business questions answered
+- Which departments handle the most patients?
+- How does severity affect length of stay?
+- What are the most common admission types?
+- Which departments have highest admission deposits?
+
+## Key findings
+- Gynecology handles 78% of all patient admissions
+- Moderate severity patients form 55% of all cases
+- Trauma admissions are the most common type
+- Average admission deposit is 4.88K
+
+## Project structure
+- notebooks/ — Python analysis
+- charts/ — visualizations
+- dashboard/ — Power BI files
+- sql/ — SQL queries
+- data/ — clean dataset
 
 ## Charts
-![Department vs Severity](chart1_heatmap.png)
+![Heatmap](chart1_heatmap.png)
 ![Stay Duration](chart2_stay_severity.png)
-![Top Departments](chart3_departments.png)
+![Departments](chart3_departments.png)
+
+## Dashboard Preview
+![Dashboard](healthcare-dashboard.pdf)
 
 ---
 *Project by Hamna Maqbool — Data Analyst Portfolio*
